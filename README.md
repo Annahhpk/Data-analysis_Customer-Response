@@ -61,7 +61,6 @@ python main.py
 Запустить скрипт:
 
 python main.py
-yaml
 
 ----
 ## Автор:
