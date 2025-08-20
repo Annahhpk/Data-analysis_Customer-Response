@@ -1,0 +1,38 @@
+# --- ОС и IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.python-version
+
+# --- Виртуальные окружения ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter / pytest / логи ---
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+
+# --- Выходные данные (генерируются в проекте) ---
+data/ads_response_outputs/
+data/data_set_cleaned.xlsx
+
+# --- Модели и бинарные файлы ---
+*.pkl
+*.joblib
+
+# --- Изображения/отчёты (если не хочешь хранить) ---
+*.png
+*.svg
+*.csv
+*.txt

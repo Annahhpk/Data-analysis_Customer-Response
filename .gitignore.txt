@@ -1,0 +1,46 @@
+# OS / редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.python-version
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter/pytest/логи
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+
+# Данные/артефакты, которые НЕ публикуем
+# — весь выходной каталог с отчётами/ID/картинками
+data/ads_response_outputs/
+
+# — очищенный датасет (генерится скриптом)
+data/data_set_cleaned.xlsx
+
+# — на всякий, если появятся артефакты в корне
+*.pkl
+*.joblib
+
+# Если начнёшь сохранять результаты рядом с main.py
+*.png
+*.svg
+*.csv
+*.txt
+
+# Разрешения (если вдруг появятся)
+*.pem
+*.key
+*.crt
